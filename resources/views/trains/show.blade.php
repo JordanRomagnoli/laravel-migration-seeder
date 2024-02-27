@@ -24,7 +24,9 @@
                                     {{$train['orario_arrivo']}}
                                 </div>
                                 <div class="">
-                                    <span>Codice treno : {{ $train['codice_treno'] }}</span>
+                                    <div>
+                                        <span>Codice treno : </span><span>{{ $train['codice_treno'] }}</span>
+                                    </div>
                                     <span>Numero carrozze : {{ $train['numero_carrozze'] }}</span>
                                 </div>
                             </li>

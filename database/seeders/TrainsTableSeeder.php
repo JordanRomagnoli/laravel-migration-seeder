@@ -29,7 +29,7 @@ class TrainsTableSeeder extends Seeder
             $maxInterval = new \DateInterval('PT10H'); 
             $train->orario_arrivo = $train->orario_partenza->add($maxInterval);
 
-            $train->codice_treno = fake()->numberBetween(1, 10);
+            $train->codice_treno = fake()->randomNumber(5, true);
             $train->numero_carrozze = fake()->numberBetween(5, 20);
             $train->in_orario = fake()->boolean;
             $train->cancellato = fake()->boolean;
