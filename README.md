@@ -1,4 +1,4 @@
-# Passi da fare per poter utilizzare il template di Laravel
+php # Passi da fare per poter utilizzare il template di Laravel
 
 0. Creo la repository a partire dal template e mi clono la repository appena creata
 
